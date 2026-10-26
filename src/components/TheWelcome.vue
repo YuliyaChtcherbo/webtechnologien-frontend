@@ -16,7 +16,7 @@ const travellings: Travel[] = [
   <h2>Meine Reisen</h2>
   <ul>
     <li v-for="travelling in travellings" :key="travelling.ziel">
-      {{ travelling.ziel }}: {{travelling.startDatum}} bis {{travelling.endDatum}}
+      {{ travelling.ziel }}: {{ travelling.startDatum }} bis {{ travelling.endDatum }}
     </li>
   </ul>
 </template>
