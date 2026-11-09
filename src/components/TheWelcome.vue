@@ -1,14 +1,9 @@
 <script setup lang="ts">
-interface Travel {
-  ziel: string
-  startDatum: string
-  endDatum: string
-  status: boolean
-}
+import type { Travel } from '@/types'
 
 const travellings: Travel[] = [
-  { ziel: "Berlin", startDatum:"01.10.2026", endDatum:"15.10.2026", status:true },
-  { ziel: "Paris", startDatum:"22.10.2026", endDatum:"25.10.2026", status:false },
+  { ziel: 'Berlin', startDatum: '01.10.2026', endDatum: '15.10.2026', status: true },
+  { ziel: 'Paris', startDatum: '22.10.2026', endDatum: '25.10.2026', status: false },
 ]
 </script>
 
