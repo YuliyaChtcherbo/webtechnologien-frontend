@@ -1,9 +1,9 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
   <main>
-    <TheWelcome />
+    <DynamicForm />
   </main>
 </template>
+
+<script setup lang="ts">
+import DynamicForm from '../components/DynamicForm.vue'
+</script>
