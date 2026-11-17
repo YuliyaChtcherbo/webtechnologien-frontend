@@ -4,4 +4,5 @@ export type Travel = {
   startDatum: string
   endDatum: string
   status: boolean
+  owner?: string
 }
